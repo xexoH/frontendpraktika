@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 640px;
+}
+
+.header {
+    min-height: 64px;
+    width: 640px;
+    gap: 8px;
+    padding: 16px 12px 16px 32px;
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 0 32px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.closebutton {
+    width: 32px;
+    height: 32px;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-field-vertical {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.text {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.control-frame {
+    width: 100%;
+}
+
+.necestag {
+    color: #8A8FA8;
+}
+
+.input-text, 
+.select-deprecated {
+    width: 100%;
+    padding: 6px 4px 6px 12px;
+    border: 1px solid #8A8FA8;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #8A8FA8;
+}
+
+.select-deprecated option {
+    color: black;
+}
+
+.list {
+    width: 100%;
+    padding: 16px 32px;
+    
+}
+
+button {
+    display: flex;
+    background: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background: #ececec;
+}
+
+.friendbutton {
+    width: 155px;
+    height: 32px;
+    font-size: 16px;
+    gap: 8px;
+}
+
+.footer {
+    width: 100%;
+    padding: 0 32px 24px;
+}
+
+.switchfooter {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    height: 32px;
+}
+
+.switchbutton {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.switchfooter button:first-child {
+    background: #E2E3E9;
+    color: #000000;
+}
+
+.switchfooter button:last-child {
+    background: #363949;
+    color: white;
+}

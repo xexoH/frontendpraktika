@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Заявка на регистрацию</title>
+</head>
+<body>
+    <div class="modal">
+        <header>
+            <div class="header">
+                <div class='title'>Заявка на регистрацию для мероприятия</div>
+                <button type="button" class="closebutton">
+                    <img class="icon" src="img/closeicon.svg" width="16" height="16" alt="">
+                </button>
+            </div>
+        </header>
+
+        <div class='list'>
+            <div class="form-field-vertical">
+                <label class="labelframe">
+                    <span class="text">
+                        <span class="info">Тип мероприятия</span>
+                        <span class="necestag">*</span>
+                    </span>
+                </label>
+                <div class="control-frame">
+                    <input type="text" id=event-type" class="input-text" placeholder="Выберите тип мероприятия" required />
+                </div>
+            </div>
+            
+            <div class="form-field-vertical">
+                <label class="labelframe">
+                    <span class="text">
+                        <span class="info">ФИО</span>
+                        <span class="necestag">*</span>
+                    </span>
+                </label>
+                <div class="control-frame">
+                    <input type="text" id="full-name" class="input-text" placeholder="Введите ФИО" required />
+                </div>
+            </div>
+            
+            <div class="form-field-vertical">
+                <label class="labelframe">
+                    <span class="text">
+                        <span class="info">Имейл</span>
+                        <span class="necestag">*</span>
+                    </span>
+                </label>
+                <div class="control-frame">
+                    <input type="email" id="email" class="input-text" placeholder="Введите имейл" required />
+                </div>
+            </div>
+            
+            <div class="form-field-vertical">
+                <label class="labelframe">
+                    <span class="text">
+                        <span class="info">Номер телефона</span>
+                        <span class="necestag">*</span>
+                    </span>
+                </label>
+                <div class="control-frame">
+                    <input type="tel" id="phone" class="input-text" placeholder="+7 777 77 77" required />
+                </div>
+            </div>
+            
+            <div>
+                <button type="button" class="friendbutton">
+                    <img class="icon" src="img/plusicon.svg" width="16" height="16">
+                    <span class="addfriend">Добавить друга</span>
+                </button>
+            </div>
+            
+            <div class="form-field-vertical">
+                <label class="labelframe">
+                    <span class="text">
+                        <span class="info">Предпочитаемый вид связи</span>
+                        <span class="necestag">*</span>
+                    </span>
+                </label>
+                <div class="control-frame">
+                    <select id="contact-preference" class="select-deprecated" required>
+                        <option value="">Выберите предпочитаемый вид связи</option>
+                        <option value="">Telegram</option>
+                        <option value="">WhatsApp</option>
+                        <option value="">Max</option>
+                        <option value="">Звонок</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="switchfooter">
+            <button type="button" class="switchbutton">
+                <span class="switchtext">Назад</span>
+            </button>
+            <button type="submit" class="switchbutton">
+                <span class="switchtext">Дальше</span>
+            </button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
